@@ -72,6 +72,78 @@ end 关键字
 #     except StopIteration:
 #         sys.exit()
 
-numbers = [1, 3, 6]
-newNumbers = tuple(map(lambda x: x, numbers))
-print(newNumbers)
+# numbers = [1, 3, 6]
+# newNumbers = tuple(map(lambda x: x, numbers))
+# print(newNumbers)
+
+# a = [66.25, 333, 335, 1, 1234.5]
+# b = [1, 2, 3]
+#
+# a.extend(b)
+# print(a)
+
+# a.insert(2, -1)
+# a.remove(333)
+# a.reverse()
+# a.sort()
+# print(a)
+
+# matrix = [
+#     [1, 2, 3, 4],
+#     [5, 6, 7, 8],
+#     [9, 10, 11, 12]]
+#
+# print(matrix)
+#
+# result = [[row[i] for row in matrix] for i in range(4)]
+#
+# print(result)
+
+# one = []
+# for x in range(4):
+#     print(x)
+#     one.append([row[x] for row in matrix])
+#     print(one)
+#     pass
+# print(one)
+
+# import support
+
+# 现在可以调用模块里包含的函数了
+# support.print_func("Runoob")
+#
+# str = input("请输入：");
+# print("你输入的内容是: ", str)
+
+import pickle
+
+# 使用pickle模块将数据对象保存到文件
+data1 = {'a': [1, 2.0, 3, 4 + 6j],
+         'b': ('string', u'Unicode string'),
+         'c': None}
+
+selfref_list = [1, 2, 3]
+selfref_list.append(selfref_list)
+
+output = open('data.pkl', 'wb')
+
+# Pickle dictionary using protocol 0.
+pickle.dump(data1, output)
+
+# Pickle the list using the highest protocol available.
+pickle.dump(selfref_list, output, -1)
+
+output.close()
+
+# import pprint, pickle
+#
+# # 使用pickle模块从文件中重构python对象
+# pkl_file = open('data.pkl', 'rb')
+#
+# data1 = pickle.load(pkl_file)
+# pprint.pprint(data1)
+#
+# data2 = pickle.load(pkl_file)
+# pprint.pprint(data2)
+#
+# pkl_file.close()
