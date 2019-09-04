@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="964f4e94-3195-4b9a-8ddf-9d6f55a72028" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../TestDjan/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDjan/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDjan/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDjan/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDjan/TestDjan.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite/polls/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/start.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,12 +32,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="29" />
-    <option name="y" value="23" />
-    <option name="width" value="1781" />
-    <option name="height" value="1050" />
-  </component>
   <component name="ProjectId" id="1Q2ga4w5bPP6rXuMFiq9Xcfry04" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,6 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.PYTHON_MODULE" value="Python 3.7" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -167,7 +169,9 @@
       <updated>1566974164174</updated>
       <workItem from="1566974165863" duration="3347000" />
       <workItem from="1566999911950" duration="3280000" />
-      <workItem from="1567045361274" duration="8620000" />
+      <workItem from="1567045361274" duration="8837000" />
+      <workItem from="1567131615859" duration="2542000" />
+      <workItem from="1567389716617" duration="484000" />
     </task>
     <servers />
   </component>
